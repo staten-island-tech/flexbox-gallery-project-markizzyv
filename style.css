@@ -12,8 +12,9 @@ h1{
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Frank Ruhl Libre', serif;
-    color: beige
-    ;
+    color: beige;
+    margin: 140px;
+    margin-right: -190px;
 }
 .card{
     width: 35vw;
@@ -22,12 +23,9 @@ h1{
     align-items: center;
     background-color:beige;
     justify-content: space-between;
+
 }
-.flex-container{
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-}
+
 .card-title{
     font-size: 2.2rem;
     text-transform: uppercase;
@@ -37,7 +35,46 @@ h1{
 
 }
 .card-desc{
-    font-size: 1.3rem;
+    font-size: 2rem;
+}
+.card-2{
+    width: 35vw;
+    align-items: center;
+    background-color:beige;
+    justify-content: space-between;
+    margin: -2307px 1050px;
+    display: flex;
+    flex-direction: column;
+}
+.card-title-2{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.card-img-2{
+    width: 90%;
+
+}
+.card-desc-2{
+    font-size: 2rem;
 }
 
+.card-3 {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    justify-content: space-between;
+    margin: -2307px 2100px;
+}
+.card-title-3{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.card-img-3{
+    width: 90%;
 
+}
+.card-desc-3{
+    font-size: 2rem;
+}
