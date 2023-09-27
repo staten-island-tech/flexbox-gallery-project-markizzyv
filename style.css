@@ -1,7 +1,7 @@
 body{
     font-size: 10px;
     box-sizing:border-box;
-    margin: 50;
+    margin: 0;
     padding: 0;
     text-align: center;
     background-color: brown;
@@ -14,16 +14,33 @@ h1{
     font-family: 'Frank Ruhl Libre', serif;
     color: beige;
     margin: 140px;
-    margin-right: -190px;
+    margin-right: 58px;
 }
-.card{
+.card {
     width: 35vw;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    background-color:beige;
+    background-color: beige;
+    flex-direction: column;
+    display: flex;
     justify-content: space-between;
+    margin: 30px 220px;
 
+
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container-2{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container-3{
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-title{
@@ -35,46 +52,5 @@ h1{
 
 }
 .card-desc{
-    font-size: 2rem;
-}
-.card-2{
-    width: 35vw;
-    align-items: center;
-    background-color:beige;
-    justify-content: space-between;
-    margin: -3326px 1050px;
-    display: flex;
-    flex-direction: column;
-}
-.card-title-2{
-    font-size: 2.2rem;
-    text-transform: uppercase;
-}
-.card-img-2{
-    width: 90%;
-
-}
-.card-desc-2{
-    font-size: 2rem;
-}
-
-.card-3 {
-    width: 35vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: beige;
-    justify-content: space-between;
-    margin: -2307px 2100px;
-}
-.card-title-3{
-    font-size: 2.2rem;
-    text-transform: uppercase;
-}
-.card-img-3{
-    width: 90%;
-
-}
-.card-desc-3{
     font-size: 2rem;
 }
