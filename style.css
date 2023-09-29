@@ -1,10 +1,10 @@
 body{
     font-size: 10px;
     box-sizing:border-box;
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
     text-align: center;
-    background-color: brown;
+    background-color: burlywood; 
 }
 
 h1{
@@ -17,31 +17,25 @@ h1{
     margin-right: 58px;
 }
 .card {
-    width: 35vw;
+    width: 24vw;
     align-items: center;
     background-color: beige;
     flex-direction: column;
     display: flex;
     justify-content: space-between;
-    margin: 30px 220px;
-
+    border-radius: 25px;
+    margin: 40px 60px;
+    box-shadow: 10px 10px 6px 7px #e6e6bb;
 
 }
-
 
 .flex-container{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.flex-container-2{
-    display: flex;
-    justify-content: space-between;
-}
-.flex-container-3{
-    display: flex;
-    justify-content: space-between;
-}
 
 .card-title{
     font-size: 2.2rem;
