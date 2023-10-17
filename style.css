@@ -48,3 +48,9 @@ h1{
 .card-desc{
     font-size: 2rem;
 }
+
+@media (max-width:500px) {
+    body {
+        color: brown;
+    }
+}
